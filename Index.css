@@ -492,7 +492,6 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-size: 3.75rem;
   margin: 20px auto 0;
 }
 
@@ -660,6 +659,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
   .u-section-3 .u-products-1 {
     min-height: 500px;
   }
@@ -837,9 +840,9 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-text-1 {
-    font-size: 2.25rem;
     width: auto;
     margin-top: 30px;
+    font-size: 1.875rem;
   }
 
   .u-section-3 .u-products-1 {
