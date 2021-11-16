@@ -1,0 +1,144 @@
+ .u-section-1 {
+  background-image: none;
+  min-height: 616px;
+}
+
+.u-section-1 .u-product-1 {
+  min-height: 516px;
+  background-image: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 30px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 450px;
+  height: 456px;
+  margin: 30px auto 0 54px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -398px 414px 0 auto;
+}
+
+.u-section-1 .u-product-price-1 {
+  margin: 205px 543px 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -192px 160px 0 592px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 172px 448px 0 auto;
+  padding: 12px 42px 13px 41px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 514px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: -353px;
+    margin-right: 337px;
+    margin-left: 510px;
+  }
+
+  .u-section-1 .u-product-price-1 {
+    margin-right: 343px;
+    margin-left: 312px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-right: 60px;
+    margin-left: 392px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 248px;
+    margin-left: 312px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-top: -300px;
+    margin-right: 253px;
+    margin-left: 383px;
+  }
+
+  .u-section-1 .u-product-price-1 {
+    margin-right: 123px;
+    margin-left: 92px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 172px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 28px;
+    margin-left: 92px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    width: 480px;
+    height: 480px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 40px;
+    margin-right: 199px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-product-price-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    width: 280px;
+    height: 280px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 122px;
+  }
+
+  .u-section-1 .u-product-price-1 {
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: auto;
+  }
+}
