@@ -6,7 +6,7 @@
     $usuariosenha=$_POST['usuariosenha'];
 
     $sql="INSERT INTO usuario(usuarionome, usuarioemail, usuariosenha) VALUES 
-        ('$usuarionome', $usuarioemail', '$usuariosenha')";
+        ('$usuarionome', '$usuarioemail', '$usuariosenha')";
     if(mysqli_query($conexao, $sql)){
         echo "Usuário cadastrado !";
     }
