@@ -96,8 +96,11 @@
 }
 
 .u-section-1 .u-btn-1 {
+  border-style: solid;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
   background-image: none;
-  border-style: none;
 }
 
 @media (max-width: 1199px) {
