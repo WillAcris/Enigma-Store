@@ -1,3 +1,5 @@
+<?php include("conexao.php"); ?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt-BR">
   <head>
@@ -71,26 +73,26 @@
           <div class="u-container-layout u-container-layout-1">
             <h1 class="u-text u-title u-text-1">Venda na Enigma</h1>
             <div class="u-form u-form-1">
-              <form action="#" method="POST" class="u-clearfix u-form-spacing-20 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 20px;">
+              <form action="cadastroemp.php" method="POST" class="u-clearfix u-form-spacing-20 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 20px;">
                 <div class="u-form-group u-form-name">
                   <label for="name-b622" class="u-label u-label-1">NOME DA EMPRESA</label>
-                  <input type="text" id="name-b622" name="name" class="u-border-2 u-border-black u-input u-input-rectangle u-white" required="">
+                  <input type="text" id="name-b622" name="nomemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white" required="">
                 </div>
                 <div class="u-form-email u-form-group u-form-group-2">
                   <label for="email-530c" class="u-label u-label-2">E-MAIL DA EMPRESA</label>
-                  <input type="email" id="email-530c" name="email-1" class="u-border-2 u-border-black u-input u-input-rectangle u-white" required="">
+                  <input type="email" id="email-530c" name="emailemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white" required="">
                 </div>
                 <div class="u-form-group u-form-group-3">
                   <label for="text-5837" class="u-label u-label-3">SENHA </label>
-                  <input type="text" placeholder="" id="text-5837" name="password" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
+                  <input type="password" placeholder="" id="text-5837" name="senhaemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
                 </div>
                 <div class="u-form-group u-form-group-4">
                   <label for="text-cded" class="u-label u-label-4">CEP</label>
-                  <input type="text" placeholder="" id="text-cded" name="CEP" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
+                  <input type="text" placeholder="" id="text-cded" name="cepemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
                 </div>
                 <div class="u-form-group u-form-group-5">
                   <label for="text-de1f" class="u-label u-label-5">CNPJ</label>
-                  <input type="text" placeholder="" id="text-de1f" name="cnpj" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
+                  <input type="text" placeholder="" id="text-de1f" name="cnpjemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
                 </div>
                 <div class="u-align-center u-form-group u-form-submit">
                   <a href="#" class="u-border-2 u-border-black u-btn u-btn-round u-btn-submit u-button-style u-hover-black u-none u-radius-5 u-text-black u-text-hover-white u-btn-1">Cadastrar</a>
