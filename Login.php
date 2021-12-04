@@ -1,3 +1,4 @@
+<?php include('conexao.php'); ?>
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt-BR">
   <head>
@@ -26,6 +27,7 @@
     <meta property="og:title" content="Login">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
+    <meta http_equiv="refresh" content="3; url=index.html">
   </head>
   <body class="u-body"><header class="u-align-center u-clearfix u-header u-section-row-container" id="sec-f987" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-section-rows">
         <div class="u-align-center u-black u-clearfix u-section-row u-section-row-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" id="sec-5f12">
@@ -120,22 +122,20 @@
           <div class="u-container-layout u-container-layout-1">
             <h1 class="u-text u-text-default u-title u-text-1">Login</h1>
             <div class="u-form u-form-1">
-              <form action="#" method="POST" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 30px;" source="custom" name="form">
+              <form action="" method="POST" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 30px;" source="custom" name="form">
                 <div class="u-form-group u-form-name">
                   <label for="name-07ea" class="u-form-control-hidden u-label u-label-1">Nome</label>
-                  <input type="text" placeholder="Insira seu Nome" id="name-07ea" name="name" class="u-border-1 u-border-grey-75 u-input u-input-rectangle u-white" required="">
+                  <input type="text" placeholder="Insira seu Nome" id="name-07ea" name="nomecli" class="u-border-1 u-border-grey-75 u-input u-input-rectangle u-white" required="">
                 </div>
                 <div class="u-form-email u-form-group">
                   <label for="email-07ea" class="u-form-control-hidden u-label u-label-2">Email</label>
-                  <input type="email" placeholder="Insira um endereço de email válido" id="email-07ea" name="email" class="u-border-1 u-border-grey-75 u-input u-input-rectangle u-white" required="">
+                  <input type="email" placeholder="Insira um endereço de email válido" id="email-07ea" name="emailcli" class="u-border-1 u-border-grey-75 u-input u-input-rectangle u-white" required="">
                 </div>
                 <div class="u-align-center u-form-group u-form-submit">
-                  <a href="#" class="u-active-grey-25 u-btn u-btn-round u-btn-submit u-button-style u-grey-90 u-hover-grey-5 u-radius-13 u-btn-1">Enviar</a>
+                  <a href="../Enigma-Store/index.html" class="u-active-grey-25 u-btn u-btn-round u-btn-submit u-button-style u-grey-90 u-hover-grey-5 u-radius-13 u-btn-1">Enviar</a>
                   <input type="submit" value="submit" class="u-form-control-hidden">
                 </div>
-                <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
-                <div class="u-form-send-error u-form-send-message"> Não foi possível enviar a sua mensagem. Por favor, corrija os erros e tente novamente. </div>
-                <input type="hidden" value="" name="recaptchaResponse">
+                
               </form>
             </div>
           </div>

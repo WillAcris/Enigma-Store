@@ -1,14 +1,16 @@
+<?php include('conexao.php'); ?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt-BR">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Registre-se">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Cadastrar empresa</title>
+    <title>Registre-se</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Cadastrar-empresa.css" media="screen">
+<link rel="stylesheet" href="Registre-se.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
@@ -23,7 +25,7 @@
 		"logo": "images/Cpia_de_Azul_Foto_do_Oceano_Casamento_na_Praia_Capa-removebg-preview1.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Cadastrar empresa">
+    <meta property="og:title" content="Registre-se">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
@@ -114,41 +116,38 @@
           
         </div>
       </div></header>
-    <section class="u-align-center u-clearfix u-grey-90 u-section-1" id="sec-f945">
-      <h1 class="u-align-center u-text u-text-default u-title u-text-1">Dados da Empresa</h1>
-      <div class="u-container-style u-expanded-width u-grey-80 u-group u-group-1">
-        <div class="u-container-layout u-valign-middle u-container-layout-1">
-          <div class="u-form u-form-1">
-            <form action="#" method="POST" class="u-clearfix u-form-spacing-20 u-form-vertical u-inner-form" source="custom" name="dadosusuario" style="padding: 10px;">
-              <div class="u-form-group u-form-name u-form-group-1">
-                <label for="name-5313" class="u-custom-font u-heading-font u-label u-label-1">NOME DA EMPESA</label>
-                <input type="text" id="name-5313" name="name-1" class="u-input u-input-rectangle u-white u-input-1" required="required">
-              </div>
-              <div class="u-form-email u-form-group">
-                <label for="email-d534" class="u-custom-font u-heading-font u-label u-label-2">E-MAIL</label>
-                <input type="email" id="email-d534" name="email" class="u-input u-input-rectangle u-white u-input-2" required="">
-              </div>
-              <div class="u-form-group u-form-group-3">
-                <label for="text-2fab" class="u-custom-font u-heading-font u-label u-label-3">SENHA</label>
-                <input type="text" id="text-2fab" name="text" class="u-input u-input-rectangle u-white u-input-3">
-              </div>
-              <div class="u-form-group u-form-group-4">
-                <label for="text-fd12" class="u-custom-font u-heading-font u-label u-label-4">CNPJ</label>
-                <input type="text" placeholder="" id="text-fd12" name="text-1" class="u-input u-input-rectangle u-white u-input-4">
-              </div>
-              <div class="u-form-group u-form-group-5">
-                <label for="text-4444" class="u-custom-font u-heading-font u-label u-label-5">CEP</label>
-                <input type="text" placeholder="" id="text-4444" name="text-2" class="u-input u-input-rectangle u-white u-input-5">
-              </div>
-              <div class="u-align-center u-form-group u-form-submit">
-                <a href="#" class="u-active-black u-border-none u-btn u-btn-submit u-button-style u-hover-grey-60 u-white u-btn-1">Atualizar<br>
-                </a>
-                <input type="submit" value="submit" class="u-form-control-hidden">
-              </div>
-              <div class="u-form-send-message u-form-send-success">Atualizado com sucesso!</div>
-              <div class="u-form-send-error u-form-send-message">Não foi possível atualizar suas informações.</div>
-              <input type="hidden" value="" name="recaptchaResponse">
-            </form>
+    <section class="u-clearfix u-grey-80 u-section-1" id="sec-7b53">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-align-left u-container-style u-group u-radius-25 u-shape-round u-white u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h1 class="u-text u-text-black u-text-default u-title u-text-1">Registre-se</h1>
+            <div class="u-form u-form-1">
+              <form action="registrocli.php" method="POST" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 30px;" source="custom" name="form">
+                <div class="u-form-group u-form-name">
+                  <label for="name-2eab" class="u-form-control-hidden u-label">Nome</label>
+                  <input type="text" placeholder="Insira seu Nome" id="name-2eab" name="nomecli" class="u-border-1 u-border-black u-input u-input-rectangle u-white" required="">
+                </div>
+                <div class="u-form-email u-form-group">
+                  <label for="email-2eab" class="u-form-control-hidden u-label">Email</label>
+                  <input type="email" placeholder="Insira um endereço de email válido" id="email-2eab" name="emailcli" class="u-border-1 u-border-black u-input u-input-rectangle u-white" required="">
+                </div>
+                <div class="u-form-group u-form-group-3">
+                  <label for="text-fc61" class="u-form-control-hidden u-label"></label>
+                  <input type="password" placeholder="Senha" id="text-fc61" name="senhacli" class="u-border-1 u-border-black u-input u-input-rectangle u-white">
+                </div>
+                <div class="u-form-group u-form-group-4">
+                  <label for="text-3550" class="u-form-control-hidden u-label"></label>
+                  <input type="text" placeholder="CPF" id="text-3550" name="cpfcli" class="u-border-1 u-border-black u-input u-input-rectangle u-white">
+                </div>
+                <div class="u-align-center u-form-group u-form-submit">
+                  <a href="#" class="u-active-white u-black u-border-0 u-btn u-btn-round u-btn-submit u-button-style u-hover-grey-60 u-radius-10 u-btn-1">Enviar</a>
+                  <input type="submit" value="submit" class="u-form-control-hidden">
+                </div>
+                <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
+                <div class="u-form-send-error u-form-send-message"> Não foi possível enviar a sua mensagem. Por favor, corrija os erros e tente novamente. </div>
+                <input type="hidden" value="" name="recaptchaResponse">
+              </form>
+            </div>
           </div>
         </div>
       </div>

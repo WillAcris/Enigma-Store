@@ -1,14 +1,16 @@
+<?php include("conexao.php"); ?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt-BR">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Registre-se">
+    <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Registre-se</title>
+    <title>cadastro_empresa</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Registre-se.css" media="screen">
+<link rel="stylesheet" href="cadastro_empresa.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
@@ -23,7 +25,7 @@
 		"logo": "images/Cpia_de_Azul_Foto_do_Oceano_Casamento_na_Praia_Capa-removebg-preview1.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Registre-se">
+    <meta property="og:title" content="cadastro_empresa">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
@@ -114,31 +116,35 @@
           
         </div>
       </div></header>
-    <section class="u-clearfix u-grey-80 u-section-1" id="sec-7b53">
+    <section class="u-clearfix u-grey-90 u-section-1" id="sec-0f24">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-align-left u-container-style u-group u-radius-25 u-shape-round u-white u-group-1">
+        <div class="u-align-center u-container-style u-group u-radius-20 u-shape-round u-white u-group-1">
           <div class="u-container-layout u-container-layout-1">
-            <h1 class="u-text u-text-black u-text-default u-title u-text-1">Registre-se</h1>
+            <h1 class="u-text u-title u-text-1">Venda na Enigma</h1>
             <div class="u-form u-form-1">
-              <form action="#" method="POST" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 30px;" source="custom" name="form">
+              <form action="cadastroemp.php" method="POST" class="u-clearfix u-form-spacing-20 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 20px;">
                 <div class="u-form-group u-form-name">
-                  <label for="name-2eab" class="u-form-control-hidden u-label">Nome</label>
-                  <input type="text" placeholder="Insira seu Nome" id="name-2eab" name="nomecli" class="u-border-1 u-border-black u-input u-input-rectangle u-white" required="">
+                  <label for="name-b622" class="u-label u-label-1">NOME DA EMPRESA</label>
+                  <input type="text" id="name-b622" name="nomemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white" required="">
                 </div>
-                <div class="u-form-email u-form-group">
-                  <label for="email-2eab" class="u-form-control-hidden u-label">Email</label>
-                  <input type="email" placeholder="Insira um endereço de email válido" id="email-2eab" name="emailcli" class="u-border-1 u-border-black u-input u-input-rectangle u-white" required="">
+                <div class="u-form-email u-form-group u-form-group-2">
+                  <label for="email-530c" class="u-label u-label-2">E-MAIL DA EMPRESA</label>
+                  <input type="email" id="email-530c" name="emailemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white" required="">
                 </div>
                 <div class="u-form-group u-form-group-3">
-                  <label for="text-fc61" class="u-form-control-hidden u-label"></label>
-                  <input type="text" placeholder="Senha" id="text-fc61" name="senhacli" class="u-border-1 u-border-black u-input u-input-rectangle u-white">
+                  <label for="text-5837" class="u-label u-label-3">SENHA </label>
+                  <input type="password" placeholder="" id="text-5837" name="senhaemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
                 </div>
                 <div class="u-form-group u-form-group-4">
-                  <label for="text-3550" class="u-form-control-hidden u-label"></label>
-                  <input type="text" placeholder="CPF" id="text-3550" name="cpfcli" class="u-border-1 u-border-black u-input u-input-rectangle u-white">
+                  <label for="text-cded" class="u-label u-label-4">CEP</label>
+                  <input type="text" placeholder="" id="text-cded" name="cepemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
+                </div>
+                <div class="u-form-group u-form-group-5">
+                  <label for="text-de1f" class="u-label u-label-5">CNPJ</label>
+                  <input type="text" placeholder="" id="text-de1f" name="cnpjemp" class="u-border-2 u-border-black u-input u-input-rectangle u-white">
                 </div>
                 <div class="u-align-center u-form-group u-form-submit">
-                  <a href="#" class="u-active-white u-black u-border-0 u-btn u-btn-round u-btn-submit u-button-style u-hover-grey-60 u-radius-10 u-btn-1">Enviar</a>
+                  <a href="#" class="u-border-2 u-border-black u-btn u-btn-round u-btn-submit u-button-style u-hover-black u-none u-radius-5 u-text-black u-text-hover-white u-btn-1">Cadastrar</a>
                   <input type="submit" value="submit" class="u-form-control-hidden">
                 </div>
                 <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
