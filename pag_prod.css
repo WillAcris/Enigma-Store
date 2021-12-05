@@ -8,29 +8,44 @@
   background-image: none;
   margin-top: 0;
   margin-bottom: 0;
-  height: auto;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 0 30px;
+  padding: 0;
+}
+
+.u-section-1 .u-line-1 {
+  top: 33px;
+  transform-origin: center bottom 0px;
+  position: absolute;
+  height: 450px;
+  width: 3px;
 }
 
 .u-section-1 .u-image-1 {
   width: 450px;
   height: 456px;
-  margin: 30px auto 0 53px;
+  margin: 30px auto 0 83px;
 }
 
 .u-section-1 .u-text-1 {
-  margin: -398px 414px 0 auto;
-}
-
-.u-section-1 .u-product-price-1 {
-  margin: 205px 543px 0 auto;
+  font-size: 2.25rem;
+  margin: -423px 219px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
-  margin: -192px 160px 0 592px;
+  font-size: 1.25rem;
+  margin: 10px 299px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.25rem;
+  text-align: start;
+  margin: 27px 299px 0 auto;
+}
+
+.u-section-1 .u-product-price-1 {
+  margin: 106px 291px 0 auto;
 }
 
 .u-section-1 .u-btn-1 {
@@ -39,7 +54,7 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  margin: 172px 448px 0 auto;
+  margin: 46px 252px 0 auto;
   padding: 12px 42px 13px 41px;
 }
 
@@ -49,7 +64,7 @@
   }
 
   .u-section-1 .u-product-1 {
-    min-height: 400px;
+    height: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -64,21 +79,21 @@
     margin-right: 344px;
   }
 
+  .u-section-1 .u-text-2 {
+    margin-top: -2px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: 10px;
+  }
+
   .u-section-1 .u-product-price-1 {
-    margin-top: 127px;
+    margin-top: 108px;
     margin-right: auto;
     margin-left: 402px;
   }
 
-  .u-section-1 .u-text-2 {
-    width: auto;
-    margin-top: -164px;
-    margin-right: 50px;
-    margin-left: 402px;
-  }
-
   .u-section-1 .u-btn-1 {
-    margin-top: 144px;
     margin-right: 377px;
   }
 }
@@ -89,7 +104,6 @@
   }
 
   .u-section-1 .u-product-1 {
-    min-height: 915px;
     width: 720px;
     margin: 30px auto;
   }
@@ -110,19 +124,23 @@
     margin-right: auto;
   }
 
+  .u-section-1 .u-text-2 {
+    margin-top: 3px;
+    margin-right: 229px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: -36px;
+    margin-right: 229px;
+  }
+
   .u-section-1 .u-product-price-1 {
-    margin-top: 140px;
+    margin-top: 116px;
     margin-left: auto;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-top: -143px;
-    margin-right: 98px;
-    margin-left: 124px;
-  }
-
   .u-section-1 .u-btn-1 {
-    margin-top: 108px;
+    margin-top: 15px;
     margin-right: auto;
     padding: 17px 115px 18px 114px;
   }
@@ -134,14 +152,14 @@
   }
 
   .u-section-1 .u-product-1 {
-    min-height: 239px;
     width: 540px;
     margin-top: 0;
     margin-bottom: 0;
   }
 
   .u-section-1 .u-container-layout-1 {
-    padding: 27px 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
 
   .u-section-1 .u-image-1 {
@@ -160,15 +178,19 @@
     margin-left: 266px;
   }
 
-  .u-section-1 .u-product-price-1 {
-    margin-top: 6px;
-    margin-right: 169px;
+  .u-section-1 .u-text-2 {
+    margin-top: 258px;
+    margin-right: 172px;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-top: -178px;
-    margin-right: 30px;
-    margin-left: 242px;
+  .u-section-1 .u-text-3 {
+    margin-top: -61px;
+    margin-right: 172px;
+  }
+
+  .u-section-1 .u-product-price-1 {
+    margin-top: 112px;
+    margin-right: 169px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -184,7 +206,6 @@
   }
 
   .u-section-1 .u-product-1 {
-    min-height: 529px;
     width: 340px;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -198,6 +219,7 @@
   .u-section-1 .u-image-1 {
     width: 280px;
     height: 280px;
+    margin-top: 1px;
     margin-right: 158px;
     margin-left: auto;
   }
@@ -210,18 +232,22 @@
     margin-right: auto;
   }
 
+  .u-section-1 .u-text-2 {
+    margin-top: 571px;
+    margin-right: 108px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 108px;
+  }
+
   .u-section-1 .u-product-price-1 {
-    margin-top: 18px;
+    margin-top: 101px;
     margin-right: auto;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-right: 0;
-    margin-left: 72px;
-  }
-
   .u-section-1 .u-btn-1 {
-    margin-top: 30px;
+    margin-top: 46px;
     margin-right: auto;
   }
 }
