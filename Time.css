@@ -109,10 +109,10 @@
 }
 
 .u-section-1 .u-image-4 {
-  background-image: url("images/4.jpg");
+  background-image: url("images/41.jpg");
   margin-top: 0;
   margin-bottom: 0;
-  background-position: 50% 50%;
+  background-position: 57.08% 50%;
 }
 
 .u-section-1 .u-container-layout-7 {
@@ -179,6 +179,10 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-image-4 {
+    background-position: 50% 0%;
+  }
+
   .u-section-1 .u-container-layout-7 {
     padding-bottom: 0;
   }
@@ -232,10 +236,6 @@
     margin-top: 322px;
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-1 .u-image-4 {
-    background-position: 50% 0%;
   }
 
   .u-section-1 .u-group-4 {
