@@ -10,7 +10,7 @@
   margin: 0 auto 42px;
 } .u-section-2 {
   background-image: none;
-  min-height: 726px;
+  min-height: 900px;
 }
 
 .u-section-2 .u-table-1 {
@@ -39,6 +39,7 @@
   letter-spacing: 0px;
   background-image: none;
   margin: 20px calc(((100% - 1140px) / 2)) 0 auto;
+  padding: 15px 30px 16px;
 }
 
 .u-section-2 .u-btn-2 {
@@ -47,8 +48,8 @@
   text-transform: uppercase;
   letter-spacing: 0px;
   background-image: none;
-  margin: -59px auto 60px calc(((100% - 1140px) / 2));
-  padding: 13px 30px 14px;
+  margin: -46px auto 3px calc(((100% - 1140px) / 2));
+  padding: 15px 30px 16px;
 }
 
 @media (max-width: 1199px) {
