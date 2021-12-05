@@ -12,7 +12,7 @@
     if(mysqli_query($conexao, $sql)){
         header("Location: index.html");
     }else{
-        header("Location: Registre-se.php");
+        header("Location: Registre-se.html");
     }
     mysqli_close($conexao);
 ?>
