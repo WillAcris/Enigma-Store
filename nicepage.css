@@ -35309,9 +35309,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-position-1 {
-  height: auto;
   min-height: 124px;
   margin: 0 0 0 20px;
+}
+
+.u-footer .u-text-1 {
+  margin-top: 0;
+}
+
+.u-footer .u-text-2 {
+  margin: -94px auto 0 20px;
 }
 
 .u-footer .u-btn-1 {
@@ -35328,7 +35335,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-position-2 {
-  height: auto;
   min-height: 85px;
   margin: 20px 38px 0 22px;
 }
@@ -35349,7 +35355,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-position-3 {
   min-height: 199px;
-  height: auto;
   margin: 20px 2px 0 22px;
 }
 
@@ -35388,7 +35393,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-1 {
-    min-height: 131px;
+    min-height: 222px;
   }
 
   .u-footer .u-container-layout-1 {
@@ -35397,6 +35402,12 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-position-1 {
+    margin-left: 0;
+    height: auto;
+  }
+
+  .u-footer .u-text-2 {
+    margin-top: -94px;
     margin-left: 0;
   }
 
@@ -35407,6 +35418,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-position-2 {
     margin-right: 13px;
     margin-left: 0;
+    height: auto;
   }
 
   .u-footer .u-layout-cell-3 {
@@ -35416,6 +35428,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-position-3 {
     margin-right: 0;
     margin-left: 0;
+    height: auto;
   }
 
   .u-footer .u-line-1 {
@@ -35440,7 +35453,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-1 {
-    min-height: 203px;
+    min-height: 100px;
   }
 
   .u-footer .u-container-layout-1 {
@@ -35488,10 +35501,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 936px;
   }
 
-  .u-footer .u-layout-cell-1 {
-    min-height: 197px;
-  }
-
   .u-footer .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -35525,10 +35534,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 1209px;
-  }
-
-  .u-footer .u-layout-cell-1 {
-    min-height: 131px;
   }
 
   .u-footer .u-layout-cell-2 {
