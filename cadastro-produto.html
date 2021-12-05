@@ -72,7 +72,7 @@
             <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
               <div class="u-form-group u-form-name">
                 <label for="name-cdcc" class="u-label u-label-1">Nome do produto</label>
-                <input type="text" id="name-cdcc" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                <input type="text" placeholder="Notebook Samsung i3 4GB 1T" id="name-cdcc" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
               </div>
               <div class="u-form-group u-form-select u-form-group-2">
                 <label for="select-ae2a" class="u-label u-label-2">Categoria</label>
@@ -88,15 +88,15 @@
               </div>
               <div class="u-form-group u-form-message u-form-group-3">
                 <label for="text-cee8" class="u-label u-label-3">Descrição</label>
-                <textarea placeholder="" id="text-cee8" name="text-1" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white"></textarea>
+                <input placeholder="O Samsung Book possui uma arquitetura de última geração e design elegante para quem busca qualidade, desempenho e proteção do investimento. Conta com portas de acesso à memória e unidade de armazenamento, facilitando o upgrade e proporcionando mais longevidade ao sistema. A familia Samsung Books traz uma variedade de configurações, atendendo aos mais diversos perfis de utilização, seja para estudo, trabalho ou uso geral." id="text-cee8" name="text-1" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
               </div>
               <div class="u-form-group u-form-partition-factor-2 u-form-group-4">
                 <label for="text-400e" class="u-label u-label-4">Quantidade</label>
-                <input placeholder="" id="text-400e" name="text-2" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" type="text">
+                <input placeholder="1" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" id="text-400e" name="text-2" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" type="number">
               </div>
               <div class="u-form-group u-form-partition-factor-2 u-form-group-5">
-                <label for="text-ddb3" class="u-label u-label-5">Valor do produto</label>
-                <input type="text" placeholder="" id="text-ddb3" name="text" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
+                <label for="" class="u-label u-label-5">Valor do produto</label>
+                <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="20,00" id="text-ddb3" name="text" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
               </div>
               <div class="u-align-center u-form-group u-form-submit">
                 <a href="#" class="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Enviar</a>
@@ -105,9 +105,9 @@
               <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
               <div class="u-form-send-error u-form-send-message"> Não foi possível enviar a sua mensagem. Por favor, corrija os erros e tente novamente. </div>
               <input type="hidden" value="" name="recaptchaResponse">
-            </form>
-          </div>
-          <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/27.svg" alt="" data-image-width="256" data-image-height="256">
+            </div>
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/27.svg" alt="" data-image-width="256" data-image-height="256">
+          </form>
         </div>
       </div>
     </section>
