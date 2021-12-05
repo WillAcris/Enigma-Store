@@ -1,3 +1,5 @@
+<?php include("listagem.php"); ?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt-BR">
   <head>
@@ -74,9 +76,9 @@
             <div class="u-container-layout u-similar-container u-container-layout-1"><!--product_image-->
               <img src="images/17.svg" alt="" class="u-image u-image-default u-product-control u-image-1"><!--/product_image--><!--product_title-->
               <h2 class="u-align-center u-product-control u-text u-text-2">
-                <a class="u-product-title-link" href="#"><!--product_title_content-->Product 1 Title<!--/product_title_content--></a>
+                <a class="u-product-title-link" href=""><!--product_title_content--><?php echo $nome ?><!--/product_title_content--></a>
               </h2><!--/product_title-->
-              <p class="u-align-center u-large-text u-text u-text-variant u-text-3">R$ 500</p>
+              <p class="u-align-center u-large-text u-text u-text-variant u-text-3"> <?php echo "R$"." ".$preco ?></p>
               <a href="https://nicepage.com/k/teacher-website-templates" class="u-active-black u-align-center u-border-2 u-border-black u-btn u-button-style u-hover-grey-60 u-none u-text-black u-text-hover-white u-btn-1">Adicionar<br>
               </a>
             </div>
