@@ -114,7 +114,7 @@
         <div class="u-repeater u-repeater-1"><!--product_item-->
           <div class="u-container-style u-products-item u-repeater-item u-white u-repeater-item-1">
             <div class="u-container-layout u-similar-container u-valign-bottom-sm u-valign-bottom-xs u-container-layout-1"><!--product_image-->
-              <img src="images/25.svg" alt="" class="u-align-center u-image u-image-default u-product-control u-image-1"><!--/product_image--><!--product_title-->
+              <img src="images/<?php echo $img ?>" alt="" class="u-align-center u-image u-image-default u-product-control u-image-1"><!--/product_image--><!--product_title-->
               <h2 class="u-align-center u-product-control u-text u-text-2">
                 <a class="u-product-title-link" href="#"><!--product_title_content--><?php echo $nome; ?><!--/product_title_content--></a>
               </h2><!--/product_title-->
@@ -124,11 +124,11 @@
           </div><!--/product_item--><!--product_item-->
           <div class="u-container-style u-products-item u-repeater-item u-white u-repeater-item-2">
             <div class="u-container-layout u-similar-container u-valign-bottom-sm u-valign-bottom-xs u-container-layout-2"><!--product_image-->
-              <img src="images/15.svg" alt="" class="u-align-center u-image u-image-default u-product-control u-image-2"><!--/product_image--><!--product_title-->
+              <img src="images/<?php echo $img ?>" alt="" class="u-align-center u-image u-image-default u-product-control u-image-2"><!--/product_image--><!--product_title-->
               <h2 class="u-align-center u-product-control u-text u-text-4">
-                <a class="u-product-title-link" href="#"><!--product_title_content-->Product 1 Title<!--/product_title_content--></a>
+                <a class="u-product-title-link" href="#"><!--product_title_content--><?php echo $nome; ?><!--/product_title_content--></a>
               </h2><!--/product_title-->
-              <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-1-base u-text-5">R$ 500</p>
+              <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-1-base u-text-5"><?php echo "R$"." ".$preco ?></p>
               <a href="https://nicepage.com/wordpress-themes" class="u-align-center-sm u-align-center-xs u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-2">Adicionar<br>
               </a>
             </div>
