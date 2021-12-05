@@ -10,7 +10,7 @@
         VALUES('$nomecli', '$emailcli', '$senhacli', '$cpfcli')";
 
     if(mysqli_query($conexao, $sql)){
-        header("Location: Login.php");
+        header("Location: index.html");
     }else{
         header("Location: Registre-se.php");
     }
