@@ -1,4 +1,4 @@
-<?php include("listagem.php"); ?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt-BR">
   <head>
@@ -109,12 +109,25 @@
     <section class="u-clearfix u-grey-90 u-section-2" id="sec-0756">
       <h1 class="u-align-center u-text u-text-default u-text-1">Informática<br>
       </h1><!--products--><!--products_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/products_options_json-->
+      <?php
+
+        $mysqli_connection = new mysqli("localhost", "root", "", "enigmastore");
+        $result = $mysqli_connection->query("SELECT * FROM produto");
+
+        while($linha = mysqli_fetch_array($result)){
+            $id = $linha['id_produto'];
+            $img = $linha['imgprod'];
+            $nome = $linha['nomeprod'];
+            $preco = $linha['precoprod'];
+        }
+
+      ?>
       <div class="u-align-center u-expanded-width-lg u-expanded-width-xl u-layout-horizontal u-products u-products-1">
         <div class="u-list-control"></div>
         <div class="u-repeater u-repeater-1"><!--product_item-->
           <div class="u-container-style u-products-item u-repeater-item u-white u-repeater-item-1">
             <div class="u-container-layout u-similar-container u-valign-bottom-sm u-valign-bottom-xs u-container-layout-1"><!--product_image-->
-              <img src="images/<?php echo $img ?>" alt="" class="u-align-center u-image u-image-default u-product-control u-image-1"><!--/product_image--><!--product_title-->
+              <img src="images/<?php echo $img?>" alt="" class="u-align-center u-image u-image-default u-product-control u-image-1"><!--/product_image--><!--product_title-->
               <h2 class="u-align-center u-product-control u-text u-text-2">
                 <a class="u-product-title-link" href="#"><!--product_title_content--><?php echo $nome; ?><!--/product_title_content--></a>
               </h2><!--/product_title-->
@@ -135,21 +148,21 @@
           </div><!--/product_item--><!--product_item-->
           <div class="u-container-style u-products-item u-repeater-item u-white u-repeater-item-3">
             <div class="u-container-layout u-similar-container u-valign-bottom-sm u-valign-bottom-xs u-container-layout-3"><!--product_image-->
-              <img src="images/35.svg" alt="" class="u-align-center u-image u-image-default u-product-control u-image-3"><!--/product_image--><!--product_title-->
+              <img src="images/<?php echo $img ?>" alt="" class="u-align-center u-image u-image-default u-product-control u-image-3"><!--/product_image--><!--product_title-->
               <h2 class="u-align-center u-product-control u-text u-text-6">
-                <a class="u-product-title-link" href="#"><!--product_title_content-->Product 3 Title<!--/product_title_content--></a>
+                <a class="u-product-title-link" href="#"><!--product_title_content--><?php echo $nome; ?><!--/product_title_content--></a>
               </h2><!--/product_title-->
-              <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-1-base u-text-7">R$ 500</p>
+              <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-1-base u-text-7"><?php echo "R$"." ".$preco ?></p>
               <a href="https://nicepage.com/wordpress-themes" class="u-align-center-sm u-align-center-xs u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-3">Adicionar</a>
             </div>
           </div><!--/product_item--><!--product_item-->
           <div class="u-container-style u-products-item u-repeater-item u-white u-repeater-item-4">
             <div class="u-container-layout u-similar-container u-valign-bottom-sm u-valign-bottom-xs u-container-layout-4"><!--product_image-->
-              <img src="images/45.svg" alt="" class="u-align-center u-image u-image-default u-product-control u-image-4"><!--/product_image--><!--product_title-->
+              <img src="images/<?php echo $img ?>" alt="" class="u-align-center u-image u-image-default u-product-control u-image-4"><!--/product_image--><!--product_title-->
               <h2 class="u-align-center u-product-control u-text u-text-8">
-                <a class="u-product-title-link" href="#"><!--product_title_content-->Product 4 Title<!--/product_title_content--></a>
+                <a class="u-product-title-link" href="#"><!--product_title_content--><?php echo $nome; ?><!--/product_title_content--></a>
               </h2><!--/product_title-->
-              <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-1-base u-text-9">R$ 500</p>
+              <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-1-base u-text-9"><?php echo "R$"." ".$preco ?></p>
               <a href="https://nicepage.com/wordpress-themes" class="u-align-center-sm u-align-center-xs u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-4">Adicionar</a>
             </div>
           </div><!--/product_item-->
