@@ -89,26 +89,25 @@
             </tr>
           </thead>
           <tbody class="u-table-body u-white u-table-body-1">
+          <?php 
+          
+            $mysqli_connection = new mysqli("localhost", "root", "", "enigmastore");
+            $result = $mysqli_connection->query("SELECT * FROM produto");
+        
+            while($linha = mysqli_fetch_array($result)){
+                $id = $linha['id_produto'];
+                $img = $linha['imgprod'];
+                $nome = $linha['nomeprod'];
+                $descri = $linha['descprod'];
+                $preco = $linha['precoprod'];
+            
+          ?>
             <tr style="height: 100px;">
-              <td class="u-table-cell"> &nbsp;Description</td>
+              <td class="u-table-cell"> &nbsp;<h4><?php echo $nome;?></h4><b>Sobre o produto:</b> <?php echo $descri;?></td>
               <td class="u-table-cell">Description</td>
-              <td class="u-table-cell">Description</td>
+              <td class="u-table-cell"><b>R$:</b><?php echo $preco;?></td>
             </tr>
-            <tr style="height: 100px;">
-              <td class="u-table-cell"> &nbsp;Description</td>
-              <td class="u-table-cell">Description</td>
-              <td class="u-table-cell">Description</td>
-            </tr>
-            <tr style="height: 100px;">
-              <td class="u-table-cell">Description</td>
-              <td class="u-table-cell">Description</td>
-              <td class="u-table-cell">Description</td>
-            </tr>
-            <tr style="height: 100px;">
-              <td class="u-table-cell">Description</td>
-              <td class="u-table-cell">Description</td>
-              <td class="u-table-cell">Description</td>
-            </tr>
+            <?php } ?>
           </tbody>
         </table>
       </div>
